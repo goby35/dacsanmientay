@@ -11,34 +11,27 @@
 <body>
 
   <div class="container mt-5">
-    <h2 class="text-center text-uppercase py-3">Đăng nhập tài khoản</h2>
     <!-- Form -->
     <div class="row p-3 my-3 justify-content-around">
     <form class="login-form col-md-6">
-      <!-- Họ và tên (required) -->
-      <div class="mb-3">
-        <label for="fullName" class="form-label">Full Name</label>
-        <input type="text" class="form-control" id="fullName" required>
-      </div>
+      <h1 class="text-center text-uppercase py-3 text-success fw-bold">Đăng nhập</h1>
       <!-- Email -->
-      <div class="mb-3">
-        <label for="email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="email">
+      <div class="p-4">
+        <input type="email" class="form-control" id="email" placeholder="Email">
       </div>
       <!-- Mật khẩu -->
-      <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
-        <input type="password" class="form-control" id="password">
+      <div class="p-4">
+        <input type="password" class="form-control" id="password" placeholder="Mật khẩu">
       </div>
       <!-- Ghi nhớ tài khoản -->
-      <div class="mb-3 form-check">
+      <div class="p-4 form-check">
         <input type="checkbox" class="form-check-input" id="rememberMe">
-        <label class="form-check-label" for="rememberMe">Remember me</label>
+        <label class="form-check-label" for="rememberMe">Ghi nhớ tài khoản</label>
       </div>
       <!-- Nút đăng nhập -->
-      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="submit" class="btn btn-success col-md-6">Đăng nhập</button>
       <!-- Nút chuyển qua form đăng ký -->
-      <a href="signup.html" class="btn btn-link">Don't have an account? Register here</a>
+      <a href="signup.html" class="btn btn-link ">Bạn chưa có tài khoản? Đăng ký tại đây.</a>
     </form>
   </div>
   </div>
