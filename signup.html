@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="text-center text-uppercase py-3">Đăng ký tài khoản</h2>
+  <!-- Form với class là signup-form -->
+  <div class="row p-3 my-3 justify-content-around">
+  <form class="signup-form col-md-6">
+    <!-- Họ và tên (required) -->
+    <div class="mb-3">
+      <label for="fullName" class="form-label">Họ tên</label>
+      <input type="text" class="form-control" id="fullName" required>
+    </div>
+    <!-- Email -->
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <!-- Mật khẩu -->
+    <div class="mb-3">
+      <label for="password" class="form-label">Mật khẩu</label>
+      <input type="password" class="form-control" id="password">
+    </div>
+    <!--Xác nhận lại MK-->
+    <div class="mb-3">
+        <label for="confirmPassword" class="form-label">Xác nhận mật khẩu</label>
+        <input type="password" class="form-control" id="confirmPassword">
+      </div>
+    <!-- Nút đăng ký -->
+    <button type="submit" class="btn btn-primary">Đăng ký</button>
+    <!-- Nút chuyển qua form đăng nhập -->
+    <a href="login.html" class="btn btn-link">Bạn đã có tài khoản? Đăng nhập tại đây.</a>
+  </form>
+</div>
+</div>
+</body>
+</html>
