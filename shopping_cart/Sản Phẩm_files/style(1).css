@@ -10,13 +10,11 @@
 #thanhtoan {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
     background-color: #fff; /* Màu nền thanh toán */
-    padding: 10px;
     display: flex; /* Cho phép các phần tử con được sắp xếp theo hàng */
-    justify-content: flex-start; /* Sắp xếp các phần tử con sang hai bên */
+    justify-content: space-between; /* Sắp xếp các phần tử con sang hai bên */
     align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc */
+    box-shadow: #6b7280;
 }
 
 body {
