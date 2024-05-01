@@ -3,7 +3,7 @@
     <html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sản Phẩm</title>
+        <title>Giỏ Hàng</title>
         <link rel="stylesheet" href="./Sản Phẩm_files/style.css">
         <link href="./Sản Phẩm_files/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./Sản Phẩm_files/main.min.css">
@@ -70,39 +70,29 @@
                     <ul class="navbar-nav">
                         <div class="d-flex link-page">
                             <li class="nav-item">
-                                <a aria-current="page" class="nav-link active" href="https://kn3t.netlify.app/">TRANG CHỦ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://kn3t.netlify.app/product#">GIỚI THIỆU</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://kn3t.netlify.app/product">SẢN PHẨM</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://kn3t.netlify.app/product#">BLOG</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://kn3t.netlify.app/contact">LIÊN HỆ</a>
+                                <h2 style="border-left: 2px solid #72BF45; 
+                                color: #72BF45;
+                                padding-left: 30px;">  Giỏ Hàng</h2>
                             </li>
                         </div>
                     </ul>
                     
                 </div>
-                <div class="d-flex align-content-center gap-3">
-                        <a href="https://kn3t.netlify.app/product#"><i class="bi bi-search fs-3 text-dark"></i></a>
-                        <a href="https://kn3t.netlify.app/product#"><i class="bi bi-cart3 fs-3 text-dark"></i></a>
-                </div>
+                <div class="ms-auto giohang">
+                    <a href="Gio_hang.html" class="btn btn-primary">
+                      <i class='bx bx-cart'></i> 
+                      <span class="badge bg-danger cart-count">0</span>
+                    </a>
+                  </div>
             </div>
         </nav>
     </header>
     <div class="container">
-        <h1>Giỏ hàng</h1>
-    
         <div id="cart-items">
           </div>
     
-        <div class="row">
-          <div class="col-md-6">
+        <div id="thanhtoan" class="card">
+          <div class="row g-0">
             <h2>Tóm tắt đơn hàng</h2>
             <p>Tạm tính: <span id="subtotal">0đ</span></p>
             <p>Phí vận chuyển: <span id="shipping">Miễn phí</span></p>

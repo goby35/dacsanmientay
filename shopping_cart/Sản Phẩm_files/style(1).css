@@ -6,9 +6,29 @@
     --secondary-color: #ff9d00;
     --text-gray: #6b7280;
 }
+/*HongNgoc them thanh toan */
+#thanhtoan {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Màu nền thanh toán */
+    padding: 10px;
+    display: flex; /* Cho phép các phần tử con được sắp xếp theo hàng */
+    justify-content: flex-start; /* Sắp xếp các phần tử con sang hai bên */
+    align-items: center; /* Căn chỉnh các phần tử con theo chiều dọc */
+}
 
 body {
     font-family: "Noto Sans", sans-serif;
+}
+/*Hồng Ngọc thêm header*/
+header {
+    border-bottom: 1px solid #b6b6b6;
+}
+/*Hồng Ngọc thêm container*/
+.container {
+    background-color: #faf9f9;
 }
 img {
     width: 100%;
